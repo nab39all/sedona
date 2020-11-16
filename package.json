@@ -4,7 +4,9 @@
   "description": "123",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "editorconfig": "editorconfig",
+    "stylelint": "stylelint",
+    "test": "npm run editorconfig"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/nab39all/sedona/issues"
   },
-  "homepage": "https://github.com/nab39all/sedona#readme"
+  "homepage": "https://github.com/nab39all/sedona#readme",
+  "dependencies": {
+    "editorconfig": "^0.15.3",
+    "stylelint": "^13.7.2"
+  }
 }
