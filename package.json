@@ -4,9 +4,7 @@
   "description": "123",
   "main": "index.js",
   "scripts": {
-    "editorconfig": "editorconfig",
-    "stylelint": "stylelint",
-    "test": "npm run editorconfig"
+    "start": "gulp styles"
   },
   "repository": {
     "type": "git",
@@ -18,8 +16,21 @@
     "url": "https://github.com/nab39all/sedona/issues"
   },
   "homepage": "https://github.com/nab39all/sedona#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "gulp": "^4.0.2",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.1.10",
+    "stylelint": "^13.8.0",
+    "stylelint-config-standard": "^20.0.0"
+  },
   "dependencies": {
-    "editorconfig": "^0.15.3",
-    "stylelint": "^13.7.2"
+    "editorconfig": "^0.15.3"
   }
 }
